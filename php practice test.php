@@ -1,5 +1,5 @@
 <?php 
-#practice 1
+#1. What is the output of print_r($person);?
 print_r("Hello");
 print_r([1, 2, 3]);
 
@@ -12,7 +12,7 @@ $person = new Person();
 $person = new("Charlene");
 $person = age(25);
 
-#practice 2
+#2. What is the output of var_dump($person);?
 var_dump($Hello);
 var_dump($person)
 var_dump($Hello! Charlene);
