@@ -163,5 +163,38 @@ var_dump($chunkedArray);
 
 ?>
 
+#PRACTICE 02
+<?php
+$fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+
+echo '<ol>';
+for ($i = 0; $i < count($fruits); $i++) {
+    echo '<li>' . $fruits[$i] . '</li>';
+}
+echo '</ol>';
+?>
+
+#PRACTTICE 03
+<?php
+$matrix = [
+    [12, 23, 34],
+    [45, 55, 62],
+    [71, 84, 90]
+];
+
+$row = 0;
+$col = 0;
+
+while ($row < count($matrix)) {
+    while ($col < count($matrix[$row])) {
+        if ($matrix[$row][$col] % 2 == 0) {
+            echo $matrix[$row][$col] . ' ';
+        }
+        $col++;
+    }
+    $col = 0;
+    $row++;
+}
+?>
 
 
